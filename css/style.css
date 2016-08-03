@@ -3,7 +3,9 @@ img {
   height: 600px;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 img.range {
@@ -13,6 +15,8 @@ img.range {
 img.logo {
   width: 200px;
   height: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 span.logo {
@@ -20,9 +24,10 @@ span.logo {
   font-weight: bold;
 }
 
-h2, h1.blogh {
+h2, h1.blog {
   text-align:center;
   font-family: inherit;
+  margin-top:40px
 }
 
 div.Rh1 {
@@ -37,4 +42,8 @@ span.latest {
 
 ul {
   color: black;
+}
+
+body {
+  background-color: #d9ffb3;
 }
