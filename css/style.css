@@ -1,6 +1,9 @@
 img {
   width: 500px;
   height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 }
 
 img.range {
@@ -15,4 +18,23 @@ img.logo {
 span.logo {
   color: green;
   font-weight: bold;
+}
+
+h2, h1.blogh {
+  text-align:center;
+  font-family: inherit;
+}
+
+div.Rh1 {
+  text-align:left;
+  color: blue;
+}
+
+span.latest {
+  font-style: italic;
+  color: black;
+}
+
+ul {
+  color: black;
 }
